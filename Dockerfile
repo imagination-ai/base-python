@@ -1,4 +1,4 @@
-FROM python:3.9-slim-bullseye as base
+FROM python:3.11.3-slim-bullseye as base
 
 RUN apt-get update -y && \
     apt-get install -y \
